@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Website</title>
+    <style>
+        #header {
+            background-color: black;
+            border-style: solid;
+            border-color: white;
+            border-width: 3px;
+            height: 120px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            padding: 20px;
+        }
+
+        a {
+            font-weight: bolder;
+            font-size: 15px;
+            text-decoration: none;
+            color: white;
+            margin-left: -35px;
+            padding: 20px;
+        }
+
+        #image {
+            height: 800px;
+            background-image: url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D");
+            background-size: cover;
+            background-position: center;
+        }
+
+        #text {
+            background-color: black;
+            border-style: dashed;
+            border-color: white;
+            border-width: 3px;
+            color: white;
+            height: 250px;
+            width: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 11%;
+            margin-left: 37%;
+            opacity: 0.7;
+        }
+
+        #menutxt {
+            background-color: black;
+            border-style: solid;
+            border-color: white;
+            border-width: 3px;
+            height: 130px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            padding-top: 10px;
+            font-weight: bolder;
+        }
+
+        #listbackground {
+            background-image: url("https://images.indianexpress.com/2024/12/Taste-Atlas-reveals-the-top-10-food-cities-in-the-world-in-2024-25-with-one-notable-Indian-city-featuring-in-top-10.jpg");
+            height: 700px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            color: white;
+            font-weight: bolder;
+        }
+
+        .listitems {
+            background-color: black;
+            border-style: dashed;
+            border-color: white;
+            border-width: 3px;
+            color: white;
+            height: 250px;
+            width: 400px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: column;
+            opacity: 0.7;
+            font-size: larger;
+        }
+
+        #continentalmenu {
+            background-color: black;
+            height: 960px;
+            padding-top: 10px;
+        }
+
+        #menuheader {
+            background-color: white;
+            border-style: solid;
+            border-color: black;
+            border-width: 3px;
+            height: 130px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            font-weight: bolder;
+        }
+
+        .continental-menu-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+            color: #fff;
+        }
+
+        .continental-item {
+            width: 300px;
+            text-align: center;
+        }
+
+        .continental-item img {
+            padding: 20px;
+            width: 300px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        #aboutus {
+            background-color: black;
+            height: 550px;
+            padding: 50px 20px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            color: white;
+            margin-top: 20px;
+            border-style: solid;
+            border-color: #fff;
+            border-width: 2px;
+        }
+
+        #aboutcontent {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-transform: inherit;
+            text-align: justify;
+            height: 300px;
+            gap: 30px;
+            padding-right: 50px;
+        }
+
+        #contactus {
+            background-color: black;
+            height: 550px;
+            padding: 50px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body style="margin: 0%; padding: 0%">
+    <div id="image">
+        <div id="header">
+            <h1 style="margin-right: 600px">BLACK &amp; WHITE HUNT</h1>
+            <div>
+                <a href="#">Home</a>
+                <a href="#menutxt">Menu</a>
+                <a href="#aboutus">About Us</a>
+                <a href="#contactus">Contact Us</a>
+            </div>
+        </div>
+
+        <div id="text">
+            <h1>Welcome To Our Cafe</h1>
+            <h3>Love At First Bite</h3>
+        </div>
+    </div>
+    <div id="menutxt">
+        <h1>MENU</h1>
+    </div>
+
+    <div id="listbackground">
+        <div class="listitems">
+            <ul>
+                <h3>CHAT ITEMS</h3>
+                <li>Pani Puri / Golgappa</li>
+                <li>Bhel Puri</li>
+                <li>Aloo Tikki Chaat</li>
+                <li>Avocado Toast</li>
+                <li>Scrambled Eggs & Toast</li>
+                <li>Soups</li>
+            </ul>
+        </div>
+        <div class="listitems">
+            <ul>
+                <h3>BEVERAGES</h3>
+                <li>Lemonade</li>
+                <li>Kashmiri Kahwa</li>
+                <li>Filter Coffee</li>
+                <li>Cappuccino</li>
+                <li>Italian Espresso</li>
+                <li>Masala Chai</li>
+            </ul>
+        </div>
+        <div class="listitems">
+            <ul>
+                <h3>DESSERTS</h3>
+                <li>Gulab Jamun with icecream</li>
+                <li>Cakes (all flavour)</li>
+                <li>Walnut Brownie</li>
+                <li>Ice cream(all flavour)</li>
+                <li>Classic Waffle</li>
+                <li>Smoothie Bowl</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="continentalmenu">
+        <div id="menuheader">
+            <h2>CONTINENTAL CUISINE</h2>
+        </div>
+        <div class="continental-menu-container">
+            <div class="continental-item">
+                <img src="https://bhukkadcompany.com/wp/wp-content/uploads/2024/06/21-Best-Pizzas-in-Mumbai-You-Must-Try-A-Pizza-Lovers-Paradise-1-710x473.png"
+                    alt="Pizza" />
+                <h3>Pizza</h3>
+                <p>$199</p>
+            </div>
+            <div class="continental-item">
+                <img src="https://s3-ap-southeast-1.amazonaws.com/img.tasteofcity.com/tasteimages/201707/image_original/94DE0FE338400FA9_Hyderabad-Biryani-House-ki-Hyderabadi-Biryani.jpg"
+                    alt="Biryani" />
+                <h3>Hyderabadi Biryani</h3>
+                <p>$540</p>
+            </div>
+            <div class="continental-item">
+                <img src="https://images.ctfassets.net/uexfe9h31g3m/6QtnhruEFi8qgEyYAICkyS/ab01e9b1da656f35dd1a721c810162a0/Spaghetti_bolognese_4x3_V2_LOW_RES.jpg?w=2000&h=1500&fm=webp&fit=thumb&q=100"
+                    alt="Spaghetti Bolognese" />
+                <h3>Spaghetti</h3>
+                <p>$299</p>
+            </div>
+            <div class="continental-item">
+                <img src="https://cdn.pixabay.com/photo/2020/10/05/19/55/hamburger-5630646_640.jpg" alt="Burger" />
+                <h3>Burger</h3>
+                <p>$469</p>
+            </div>
+            <div class="continental-item">
+                <img src="https://sinfullyspicy.com/wp-content/uploads/2014/07/Tandoori-Chicken-Featured-image.jpg" />
+                alt="Tandoori" />
+                <h3>Tandoori</h3>
+                <p>$399</p>
+            </div>
+            <div class="continental-item">
+                <img src="https://www.cubesnjuliennes.com/wp-content/uploads/2023/12/Tawa-Paneer-Masala-Recipe.jpg"
+                    alt="Paneer" />
+                <h3>Paneer Tikka</h3>
+                <p>$179</p>
+            </div>
+            <div class="continental-item">
+                <img src="https://40204166.fs1.hubspotusercontent-na1.net/hub/40204166/hubfs/New%20Recipe%20images/Sunday%20Pancakes%20Recipe%20NZ%20Chelsea%20Sugar.jpg?width=755&height=500&name=Sunday%20Pancakes%20Recipe%20NZ%20Chelsea%20Sugar.jpga"
+                    alt="Pan Cakes" />
+                <h3>Pan Cakes</h3>
+                <p>$159</p>
+            </div>
+            <div class="continental-item">
+                <img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/12/Noodles-with-chilli-oil-eggs-6ec34e9.jpg"
+                    alt="noodles" />
+                <h3>Noodles</h3>
+                <p>$199</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="aboutus">
+        <h1>About Us</h1>
+        <div id="aboutcontent">
+            <p>
+                Welcome to Black & White, a culinary haven where passion meets flavor.
+                Our restaurant brings together the finest ingredients to create a
+                diverse range of dishes, each one crafted with love and attention to
+                detail. Whether you're in the mood for a classic favorite or something
+                new and exciting, we have something for everyone.<br />
+
+                At Black & White, we believe in the art of dining. Our menu combines
+                the rich flavors of traditional cuisine with contemporary twists,
+                offering an unforgettable dining experience. From fresh salads to
+                indulgent desserts, our chefs take pride in using only the freshest,
+                locally sourced ingredients to prepare every meal.<br />
+
+                Our warm and welcoming atmosphere makes Black & White the perfect
+                place for any occasion swhether it’s a casual meal with friends or a
+                special celebration. Join us and experience the perfect blend of
+                flavors, hospitality, and ambiance.
+            </p>
+            <img style="width: 500px; height: 500px"
+                src="https://www.soegjobs.com/wp-content/uploads/2017/06/Hospitality_Quotes.jpg" />
+        </div>
+    </div>
+
+    <div id="contactus">
+        <h2>Contact Us</h2>
+        <p>We're always here to assist you with any questions or feedback!</p>
+        <p>123 Rosegarden Street, Opposite to Lulu Complex</p>
+        <p>Tirunelveli-654678</p>
+        <p>Email: info@blackandwhitehunt.com</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>We look forward to your visit!</p>
+    </div>
+     
+</body>
+
+</html>
